@@ -23,9 +23,10 @@ const Pokedex = () => {
     load: true,
     page: 0,
     searche: [],
+    loadPage: false,
   });
   // obteniendo valores del estado
-  const { pokemon, load, page, searche } = state;
+  const { pokemon, load, page, searche, loadPage } = state;
   // intersetion
   const Observer = useRef(new IntersectionObserver(calback, { threshold: 1 }));
   // const refsolv = useRef(handleclic);
@@ -33,14 +34,13 @@ const Pokedex = () => {
     if (entries[0].isIntersecting) {
       dispatch({
         type: "PAGE",
-        load: "Loading...",
+        loadPage: true,
       });
     }
   }
 
   function clickFavorite(name, img) {
     getClickFavorite(name, img, favorite, data, setData, setFavorite);
-    console.log("");
   }
 
   async function getFetchPokemon() {
@@ -51,12 +51,12 @@ const Pokedex = () => {
       dispatch({
         type: "DATA",
         pokemon: [...pokemon, ...result],
+        loadPage: false,
       });
     } catch (error) {
       dispatch({
         type: "LOAD",
       });
-      console.log(error);
     }
   }
 
@@ -111,6 +111,7 @@ const Pokedex = () => {
           ) : (
             <List pokemon={searche} setElemt={setElemt} />
           )}
+          {loadPage && <h1 className="Loading">Loading...</h1>}
         </div>
       </div>
     </FavoriteProvider>

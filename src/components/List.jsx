@@ -5,7 +5,7 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import "../styles/List.scss";
 import FavoritePokemon from "./context/Favorite";
 
-const List = ({ pokemon, setElemt, load }) => {
+const List = ({ pokemon, setElemt }) => {
   const { favorites, usefavorites } = useContext(FavoritePokemon);
 
   function changeColor(name, sprites) {

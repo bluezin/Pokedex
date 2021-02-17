@@ -6,11 +6,12 @@ const reducer = (state, action) => {
         pokemon: action.pokemon,
         dataUrl: action.dataUrl,
         load: false,
+        loadPage: action.loadPage,
       };
     case "LOAD":
       return { ...state, load: true };
     case "PAGE":
-      return { ...state, page: state.page + 10, load: true };
+      return { ...state, page: state.page + 10, loadPage: action.loadPage };
     case "SEARCHE":
       return {
         ...state,
