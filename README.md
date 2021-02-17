@@ -14,4 +14,4 @@ enseña como hacerlo -> https://gpolanco.com/configurar-react-desde-cero-con-web
 .React:  Es un framework de javascript
 .Scss: Es un procesador de css.
 
-![stack Overflow](/home/yadira/Pictures/pokedex-snowy.vercel.app_.png)
+![stack Overflow](https://mjohar30.github.io/Portafolio/images/pokedex.png)
