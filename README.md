@@ -12,6 +12,5 @@ enseña como hacerlo -> https://gpolanco.com/configurar-react-desde-cero-con-web
 #Construido con : 
 
 .React:  Es un framework de javascript
-.Scss: Es un procesador de css
-
+.Scss: Es un procesador de css.
 
