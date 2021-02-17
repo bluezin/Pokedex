@@ -1,0 +1,62 @@
+.MyFavorite {
+  background-color: white;
+  .h1-my-favorite {
+    background-color: rgb(97, 97, 231);
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  .p-my-favorite {
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: monospace;
+    margin-left: 10px;
+  }
+}
+.div-myFavorite {
+  background-color: white;
+
+  box-shadow: 2px 3px 7px rgb(211, 206, 206);
+  width: 220px;
+  height: 230px;
+  margin: 20px;
+
+  img {
+    margin: auto;
+    width: 200px;
+    margin-top: -40px;
+  }
+  p {
+    font-size: 15px;
+    font-family: monospace;
+    text-align: center;
+  }
+}
+
+.heart-favorite {
+  position: relative;
+  left: 12px;
+  top: 10px;
+  color: #666666;
+  font-size: 20px;
+}
+
+.div-first-my-favorite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 300px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.Loader-h1 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 700px;
+  @media screen and (max-width: 500px) {
+    margin: 10px;
+  }
+}

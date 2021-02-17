@@ -1,0 +1,52 @@
+.List {
+  @media screen and (min-width: 400px) {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  text-align: center;
+  padding-bottom: 200px;
+  padding-top: 20px;
+}
+
+.div-list {
+  background-color: #3b4c61;
+  width: 350px;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+  border: 1px solid white;
+
+  @media screen and (max-width: 430px) {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+}
+
+.img-list {
+  width: 150px;
+  margin: auto;
+}
+
+.p-list {
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+.heart {
+  float: right;
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.red {
+  color: red;
+}
+
+.white {
+  color: white;
+}
