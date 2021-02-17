@@ -40,7 +40,7 @@ const Searche = (props) => {
 
   return (
     <form onSubmit={handleClick}>
-      <h1>Lista de pokemones</h1>
+      <h1 className="h1-pokedex">Lista de pokemones</h1>
       <p className="p-first-pokedex">*Limitado a la región de Kanto*</p>
       <p className="p-sec-pokedex">Encuentra el pokemon que estás buscando</p>
       <input

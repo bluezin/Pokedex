@@ -2,7 +2,7 @@
   background-color: #263547;
   color: white;
   text-align: center;
-  h1 {
+  .h1-pokedex {
     font-size: 30px;
     padding-top: 20px;
   }
@@ -26,5 +26,6 @@
 .Loading {
   font-size: 20px;
   text-align: center;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
