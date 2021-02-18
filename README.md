@@ -2,7 +2,7 @@
 Una pokedex que te ayuda a encontrar cualquier pokemon y agregarlo a tus favoritos
 
 #Pre-requisitos
-Lo que necesitas para este proyecto es react, para poder instalarlo , tienes dos opciones con con 
+Lo que necesitas para este proyecto es react, para poder instalarlo , tienes dos opciones con
 
 npx create-react-app 
 
