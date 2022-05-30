@@ -1,12 +1,17 @@
 .div-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: white;
-  // max-width: 1235px;
-  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   margin: auto;
   @media screen and (max-width: 1100px) {
+    position: relative;
     flex-wrap: wrap;
     text-align: center;
   }
@@ -14,7 +19,9 @@
 
 .div-sub-body {
   background-color: #263547;
-  padding-bottom: 70px;
+  height: 100vh;
+  position: relative;
+
   @media screen and (max-width: 1100px) {
     padding-bottom: 200px;
   }
@@ -31,7 +38,7 @@
 .img-logo-pokemon {
   width: 330px;
   margin: auto;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .h1-body {

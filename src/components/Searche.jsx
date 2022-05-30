@@ -20,7 +20,7 @@ const Searche = (props) => {
       if (save) {
         const data = await getSearche(save);
         const f = [data];
-        const Searchpokemon = f.filter((pokemon, index) => {
+        const Searchpokemon = f.filter((pokemon) => {
           return (
             pokemon.name.toLowerCase().includes(save.toLowerCase()) ||
             pokemon.id === Number(save)
